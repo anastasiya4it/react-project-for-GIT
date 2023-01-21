@@ -1,0 +1,17 @@
+.myBtn {
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: teal;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid teal;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.myBtn:active {
+    border: 1px solid rgb(5, 100, 100);
+    color: white;
+    background-color: rgb(5, 100, 100);
+}

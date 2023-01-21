@@ -1,0 +1,23 @@
+.menu__page {
+    margin-top: 20px;
+}
+
+.page {
+
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: teal;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid teal;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.page__current {
+    border: 1px solid teal;
+    background: teal;
+    font-weight: bold;
+    color: white;
+}

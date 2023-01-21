@@ -1,0 +1,20 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: gainsboro;
+}
+
+.navbar__links {
+    padding-right: 20px;
+    color: #000;
+    text-decoration-line: none;
+    font-size: 16px;
+    margin: auto;
+}
+
+.links {
+    padding-right: 20px;
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.post {
+    display: block;
+    padding: 15px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: 'red'
+
+}
+
+.post__list {
+    margin-top: 15px;
+    border: 3px solid teal;
+    border-radius: 5px;
+
+}
+
+.post__btns {
+    display: flex;
+}
+
+.item-enter {
+
+    transform: translateY(500px);
+}
+
+.item-enter-active {
+
+    transform: translateY(0px);
+    transition: all 500ms ease-in;
+}
+
+.item-exit {
+    opacity: 1;
+}
+
+.item-exit-active {
+
+    transform: translateY(500px);
+    transition: all 500ms ease-in;
+}
