@@ -5,6 +5,7 @@ import { AuthContext } from '../context/context';
 
 const Login = () => {
     const { isAuth, setIsAuth } = useContext(AuthContext);
+    alert("Просто нажми войти");
     const login = (event) => {
         event.preventDefault();
         setIsAuth(true);
@@ -17,7 +18,7 @@ const Login = () => {
                 <MyInput type="text" placeholder='Введите логин' />
                 <MyInput type="password" placeholder='Введите пароль' />
                 <MyButton>Войти</MyButton>
-            </form>
+            </form>     
         </div>
     );
 };

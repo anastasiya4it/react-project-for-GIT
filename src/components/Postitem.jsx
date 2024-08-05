@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 const Postitem = (props) => {
     let navigate = useNavigate();
-    // console.log(props);
     return (
         <div className='post'>
             <Post posts={props.posts} number={props.number} />
@@ -16,4 +15,4 @@ const Postitem = (props) => {
         </div>
     );
 };
-export default Postitem;
+export default Postitem; 
